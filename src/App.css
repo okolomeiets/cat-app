@@ -1,0 +1,133 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  background-color: black;
+}
+
+.MuiFab-circular.favorite-btn {
+  background: none;
+  box-shadow: none;
+}
+
+.MuiFab-circular.favorite-btn:hover {
+  background: rgb(0, 0, 0, 0.2);
+}
+
+.MuiFab-circular.favorite-btn svg {
+  fill: #d2ca17;
+}
+
+.favorite-btn-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.pagination {
+  margin: 15px 0;
+}
+.pagination .MuiButtonBase-root,
+.pagination .MuiPaginationItem-root {
+  color: #c6c3c3;
+}
+.pagination .MuiPaginationItem-root.Mui-selected {
+  color: #d2ca17;
+}
+
+.home-page {
+  background-image: url("../public/body-bg.png");
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: contain;
+  height: 100vh;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+header nav a {
+  color: #c6c3c3;
+  text-decoration: none;
+}
+
+/*.home-page .content-wrapper {*/
+/*  min-height: calc(100% - 50px);*/
+/*  padding-bottom: 50px;*/
+/*  box-sizing: border-box;*/
+/*}*/
+.content-wrapper {
+  min-height: auto;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+.home-page .app-footer {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+.app-footer a,
+.app-footer p {
+  color: #c6c3c3;
+  text-decoration: none;
+}
+.home-page-content {
+  color: #c6c3c3;
+  margin-top: 200px;
+  margin-left: 200px;
+  line-height: 36px;
+  width: 35%;
+}
+.home-page-content .MuiButtonBase-root{
+  background-color: #d2ca17;
+  color: #282816;
+}
+.home-page-content .MuiButtonBase-root:hover {
+  background-color: #9a9513;
+  color: #282816;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.MuiTypography-root.logo {
+  padding: 5px 10px 5px 30px;
+  color: #c6c3c3;
+  font-weight: bold;
+}
+.app-header a {
+  padding: 0 15px;
+}
+.current {
+  color: #d2ca17;
+}
+/* breeds-page */
+.breeds-page .MuiTypography-root {
+  color: #c6c3c3;
+}
+.breeds-page .MuiTypography-root.MuiTypography-h5 {
+  color: #d2ca17;
+}
+.breeds-page .MuiPaper-root {
+  background-color: transparent;
+}
+.breeds-page .MuiButtonBase-root a {
+  color: #c6c3c3;
+}
+.favourites-page .MuiImageListItem-root,
+.cats-page .MuiImageListItem-root {
+  border: 1px solid transparent;
+}
+.favourites-page .MuiImageListItem-root:hover,
+.cats-page .MuiImageListItem-root:hover {
+  border: 1px solid #d2ca17;
+  box-sizing: border-box;
+
+}
